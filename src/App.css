@@ -1,0 +1,19 @@
+/* App.css */
+
+/* Flexbox layout for sidebar and content */
+.app-container {
+  display: flex;
+  height: 100vh; /* Full height */
+}
+
+/* Main container should take full width except sidebar */
+.main-container {
+  margin-left: 160px; /* Sidebar width + padding */
+  flex-grow: 1;
+}
+
+/* Content Styles */
+.content {
+  padding: 20px;
+  overflow-y: auto; /* Scrollable if content is long */
+}

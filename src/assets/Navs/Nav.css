@@ -1,0 +1,46 @@
+/* Navbar.css */
+
+/* Style for the entire navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow to make it stand out */
+    border-radius: 8px; /* Slightly rounded corners */
+  }
+  
+  /* Search bar styling */
+  .search {
+    position: relative;
+    width: 100%;
+    max-width: 400px; /* Make the search bar bigger */
+  }
+  
+  .search input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* Search icon inside the search bar */
+  .search i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  
+  /* Icons container on the right */
+  .right {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    color: #555;
+  }
+  

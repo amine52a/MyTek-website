@@ -1,0 +1,90 @@
+/* Overall container styling */
+div {
+  box-sizing: border-box;
+}
+
+/* Center-align the entire product details container */
+.product-details-container {
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Product title */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Image styling */
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Product details like price and category */
+p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Add-to-cart button styling */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the quantity controls */
+.productadd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.productadd button {
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.productadd button:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.1);
+}
+
+.productadd span {
+  font-size: 1.5rem;
+  margin: 0 15px;
+  font-weight: bold;
+  color: #444;
+}
